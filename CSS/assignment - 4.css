@@ -1,0 +1,32 @@
+.Todo-list {
+    background-image: url("https://ik.imagekit.io/liebig/todolistbg.jpeg?updatedAt=1757012873580");
+    font-family: Roboto;
+    color: white;
+    width: 360px;
+    height: 640px;
+        justify-content: center;
+}
+.head {
+    text-align: center;
+}
+.motivation {
+    text-align: center;
+}
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn {
+    border: #331b05 2px solid;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    width: 80px;
+    height: 30px;
+    background-color: #ffa61b;
+}
+.underline {
+    font-size: 12px;
+    text-decoration: underline;
+}
