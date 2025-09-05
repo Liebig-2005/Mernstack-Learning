@@ -1,0 +1,47 @@
+.chat-app {
+    width: 400px;
+    height:658px;
+    background-image: url("https://ik.imagekit.io/liebig/chat-bg.jpg?updatedAt=1757045890372");
+    background-size: cover;
+    font-family: Roboto;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name-bar {
+    background-color: #323f4b;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chat {
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.sender {
+    display: flex;
+    justify-content: flex-end;
+}
+.send-chat {
+    display: inline-block;
+    width: auto;
+    background-color: #47a3f3;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 8px 8px 0px 8px;
+}
+.receiver {
+    display: flex;
+}
+.receiver-chat {
+    display: inline-block;
+    width: auto;
+    color: #ffffff;
+    background-color: #52606d;
+    padding: 12px;
+    border-radius: 8px 8px 8px 0px;
+}
